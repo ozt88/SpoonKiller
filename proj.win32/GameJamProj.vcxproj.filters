@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{710fa7b8-a538-4e5c-a804-8e7380cf35dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObject">
+      <UniqueIdentifier>{1d07512d-0c4c-44ee-a16c-ff96fe969ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SceneObject">
+      <UniqueIdentifier>{f31e7b14-3d8e-4648-ae25-8ec59adad6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Mananger">
+      <UniqueIdentifier>{7be29197-ffcd-4780-afa0-89ac6c84b9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util">
+      <UniqueIdentifier>{580b4052-64fa-4390-ac67-2e26b363664c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\App">
+      <UniqueIdentifier>{2177a796-9108-468a-b93a-be3333257bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SceneObject\UIObject">
+      <UniqueIdentifier>{31c501b8-9790-4561-a44e-a237177b2132}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Killer.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>Classes\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>Classes\Mananger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UtilSpace.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackGround.cpp">
+      <Filter>Classes\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Runner.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UILayer.cpp">
+      <Filter>Classes\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HPBar.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UpgradeButton.cpp">
+      <Filter>Classes\SceneObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreBoard.cpp">
+      <Filter>Classes\SceneObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameField.cpp">
+      <Filter>Classes\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ResultBoard.cpp">
+      <Filter>Classes\SceneObject\UIObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Killer.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TitleScene.h">
+      <Filter>Classes\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>Classes\Mananger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UtilSpace.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGround.h">
+      <Filter>Classes\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Runner.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UILayer.h">
+      <Filter>Classes\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HPBar.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UpgradeButton.h">
+      <Filter>Classes\SceneObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreBoard.h">
+      <Filter>Classes\SceneObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameField.h">
+      <Filter>Classes\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResultBoard.h">
+      <Filter>Classes\SceneObject\UIObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
